@@ -20,16 +20,13 @@ A command-line tool to extract text from PDF and PowerPoint (PPTX) files. Built 
 - Python 3.7 or higher
 - `pip` (Python package manager)
 
-### Steps
+## Setup
 
-1. Clone the repository:
+### Clone the repository:
    ```bash
    git clone https://github.com/Moh-Gebril/PDF-PPT-Text-Extractor.git
    cd PDF-PPT-Text-Extractor
    ```
-
-## Setup
-
 ### Setting Up the Virtual Environment and Installing Dependencies
 
 ```bash
