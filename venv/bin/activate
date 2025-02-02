@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV=/home/gebril/MyWorkSpace/Codes/Git-Hub/pdf_ppt_text_extractor/venv
+VIRTUAL_ENV=/home/gebril/MyWorkSpace/Codes/Git-Hub/PDF-PPT-Text-Extractor/venv
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
