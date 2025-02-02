@@ -8,7 +8,7 @@ def extract_text_from_ppt(file_path):
     for i, slide in enumerate(prs.slides):
         # Extract slide header (title)
         header = ''
-        if slide.shapes.title:
+        if slide.shapes.title and slide.shapes.title.text.strip():
             header = slide.shapes.title.text.strip()
 
         # Extract slide content (other text)
