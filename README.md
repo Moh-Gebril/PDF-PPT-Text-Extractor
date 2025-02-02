@@ -37,7 +37,7 @@ make install
 
 ```bash
 make build
-python setup.py install
+python3 setup.py install
 ```
 
 ## Usage
@@ -47,13 +47,13 @@ python setup.py install
 To extract text from a file, run:
 
 ```bash
-python extract_text.py --file <file_path>
+python3 extract_text.py --file <file_path>
 ```
 
 #### Example:
 
 ```bash
-python extract_text.py --file tests/samples/sample.pdf
+python3 extract_text.py --file tests/samples/sample.pdf
 ```
 
 ### Supported File Formats
